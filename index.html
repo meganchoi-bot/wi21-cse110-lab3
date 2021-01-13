@@ -23,7 +23,29 @@
             <h2>About me</h2>
             <p>Hi my name is Megan.</p>
             <p>Welcome to my page!</p>
+            <label for="pwd">Secret password:</label>
+            <input type="password">
+            <input type="button" value="Enter">
         </header>
+        <hr>
+
+        <label for="search">Search my page:</label>
+        <input type="search" id="search" name="search">
+        <input type="button" value="go"><br>
+
+        <fieldset>
+            <legend>Cereal Time:</legend>
+            <p>Pick your favorite cereal!</p>
+            <label for="cereals">Choose a cereal:</label>
+            <select name="cereals" id="cereals"> 
+                <optgroup label="Good Cereals">
+                    <option value="lucky charms">Lucky Charms</option>
+                    <option value="lucky charms">Lucky Charms</option>
+                    <option value="lucky charms">Lucky Charms</option>
+                </optgroup>
+            </select><br>
+            <input type="button" value="Lucky Charms">
+        </fieldset><br>
         
         <b>I am bold.</b><br>
         <i>I am italicized.</i><br>
@@ -39,7 +61,13 @@
         </video><br>
         <audio controls>
             <source src="nicki.mp3">
-        </audio>
+        </audio><br><br>
+
+        <label for="nicki">Do you like Nicki Minaj?</label><br>
+        <input type="checkbox" id="yes please" name="yes">
+        <label for="yes">yes please</label><br>
+        <input type="checkbox" id="no thank you" name="no">
+        <label for="no">no thank you</label>
 
         <hr>
         <section>
@@ -83,10 +111,42 @@
     <svg>
         <circle cx="50" cy="50" r="40" fill="yellow"/>
     </svg><br>
+    <textarea name="text" id="text" cols="30" rows="5">This is a text area where I will tell you about the sun. The sun is a star, just like you.</textarea>
+    <hr>
     <p>This is my canvas.</p>
      <canvas id="myCanvas" width="100" height="100" style="border:2px solid #000000;">
     </canvas><br>
+    <hr>
+    <h4>About You</h4>
+    <label for="your"> Choose your favorite color</label>
+    <input type="color" id="your" name="your" value="#F04354"><br>
 
+    <label for="num"> Choose your favorite number</label>
+    <input type="number" id="num" name="num"><br>
+
+    <label for="time">When do you wake up?</label>
+    <input type="time" id="time" name="time"><br>
+
+    <label for="bday">When is your birthday?</label>
+    <input type="date" id="bday" name="bday">
+    
+    <hr>
+    <p>Subscribe to my channel ahah</p>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <input type="submit" value="Subscribe">
+    </form><br>
+
+    <form>
+        <label for="feedback">What is the best cereal?</label><br>
+        <input list="feedback" name="feedback" id="feedback">
+        <datalist id="feedback">
+            <option value="Lucky Charms">
+        </datalist>
+        <input type="submit" value="Submit">
+    </form>
+    
     <footer>
         <p>Author: Megan Choi<br>
         <a
