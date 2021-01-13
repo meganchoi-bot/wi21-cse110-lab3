@@ -7,9 +7,15 @@
         <title>Megan's User Page 2.0</title>
         <link rel="dummystyle" href="style.css">
     </head>
-
+    <style>
+    .myDiv {
+        border: 2px outset green;
+        background-color: lightblue;
+        text-align: center;
+    }
+    </style>
+    
     <body>
-
     <h1>Megan's User Page</h1>
 
     <main>
@@ -18,18 +24,36 @@
             <p>Hi my name is Megan.</p>
             <p>Welcome to my page!</p>
         </header>
-        
+        <hr>
         <section>
             <h3>These are my dogs</h3>
-            <p>I have two dogs: Yeti and Zeus. Yeti is a Bernese Mountain Dog and Zeus is a German Shepherd.</p>
+            <p>I have two dogs:</p>
+                <ul>
+                    <li>Yeti</li>
+                    <li>Zeus</li>
+                </ul>
+            <p>Yeti is a Bernese Mountain Dog and Zeus is a German Shepherd.</p>
+            <figure>
+                <img src="IMG_5796.jpg" style="width:50%">
+                <figcaption>Yeti & Zeus on Election Day!</figcaption>
+            </figure>
         </section>
-        
+        <hr>
+            <h4>My Education</h4>
+            <p>I am a General Biology Major at UCSD. I work for the Recreation Department as an Outdoor Guide at Outback Adventures.</p>
+        <aside>
+            <p>I have two minors</p>
+            <ol>
+                <li>Environmental Studies</li>
+                <li>Computer Science</li>
+            </ol>
+        </aside>
+        <hr>
     </main>
 
-    <aside>
-        <h4>My Education</h4>
-        <p>I am a General Biology Major at UCSD. I have minors in Environmental Studies and Computer Science.</p>
-    </aside>
+    <div class="myDiv">
+        This is my first <span style="color:blueviolet">div</span>.
+    </div>
 
     <footer>
         <p>Author: Megan Choi<br>
@@ -38,8 +62,9 @@
         </a></p>
     </footer>
     
+    <p>Below is my LinkedIn profile.</p>
     <nav>
-        <a href="linkedin.com/in/megan-choi-6922181a1">Email</a>
+        <a href="linkedin.com/in/megan-choi-6922181a1">LinkedIn</a>
     </nav>
     </body>
 </html>
