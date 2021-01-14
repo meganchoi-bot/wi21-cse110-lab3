@@ -23,8 +23,8 @@
             <h2>About me</h2>
             <p>Hi my name is Megan.</p>
             <p>Welcome to my page!</p>
-            <label for="pwd">Secret password:</label>
-            <input type="password">
+            <label for="pass">Secret password:</label>
+            <input id="pass" type="password">
             <input type="button" value="Enter">
         </header>
         <hr>
@@ -63,7 +63,7 @@
             <source src="nicki.mp3">
         </audio><br><br>
 
-        <label for="nicki">Do you like Nicki Minaj?</label><br>
+        <label>Do you like Nicki Minaj?</label><br>
         <input type="checkbox" id="yesplease" name="yes">
         <label for="yesplease">yes please</label><br>
         <input type="checkbox" id="nothankyou" name="no">
@@ -81,7 +81,7 @@
                 <summary>The Dogs</summary>
                 <p>Yeti loves food and Zeus loves his ball.</p>
             </details>
-            <caption>Dog stats</caption>
+            <caption>Dog stats
             <table style="width:50%">
                 <colgroup>
                     <col style="background-color:lightgreen">
@@ -103,6 +103,7 @@
                     <td>German Shepherd Dog</td>
                     <td>2 years</td>
                 </tr>
+            </caption>
             </table>
             <figure>
                 <img src="IMG_5796.jpg" alt="dogs" style="width:50%">
@@ -167,7 +168,7 @@
     <form>
         <label for="feedback">What is the best cereal?</label><br>
         <input list="feedback" name="feedback" id="feedback">
-        <datalist id="feedback">
+        <datalist id="feed">
             <option value="Lucky Charms">
         </datalist>
         <input type="submit" value="Submit">
