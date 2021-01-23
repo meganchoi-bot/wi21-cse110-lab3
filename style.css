@@ -2,3 +2,43 @@
 body {
     background-color: rgb(207, 226, 233);
 }
+/* make h1 grey */
+h1 {
+    color: hsl(0,0%,0%,0.7)
+}
+/* make all text navy with universal selector */
+* {
+    color: navy;
+}
+/* give all p elements light blue highlight with element selector */
+p {
+    background-color: azure;
+}
+/* psuedo class selector */
+a:hover {
+    color: red;
+}
+/* selector list */
+h2, h3 {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+/* descendant combinator */
+div p {
+    color: orange;
+}
+/* child combinator */
+div > span {
+    color: green;
+}
+/* general sibling combinator */
+summary ~ p {
+    color:purple;
+}
+/* Adjacent sibling combinator */
+img + figcaption {
+    color: red;
+}
+/* combining two selectors */
+p.major {
+    color: green;
+}
