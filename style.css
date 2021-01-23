@@ -42,3 +42,11 @@ img + figcaption {
 p.major {
     color: green;
 }
+.myDiv {
+    border-style: solid;
+    border-width: medium;
+    border-color: green;
+    border-radius: 15px;
+    background-color: lightblue;
+    text-align: center;
+}
