@@ -1,10 +1,12 @@
 /* background color*/
 body {
     background-color: rgb(207, 226, 233);
+    font-family: 'Roboto';
 }
 /* make h1 grey */
 h1 {
-    color: hsl(0,0%,0%,0.7)
+    color: hsl(0,0%,0%,0.7);
+    font-family: 'Roboto';
 }
 /* make all text navy with universal selector */
 * {
@@ -25,6 +27,7 @@ h2, h3 {
 /* descendant combinator */
 div p {
     color: orange;
+    margin: auto;
 }
 /* child combinator */
 div > span {
@@ -37,8 +40,33 @@ summary ~ p {
 /* Adjacent sibling combinator */
 img + figcaption {
     color: red;
+    margin: 10px 10px 20px 80px;
+    padding: 15px 20px 15px 20px;
 }
 /* combining two selectors */
 p.major {
     color: green;
+}
+.myDiv {
+    border-style: solid;
+    border-width: medium;
+    border-color: green;
+    border-radius: 15px;
+    background-color: lightblue;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2em;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+img {
+    width:50%;
+    height: 100%
 }
